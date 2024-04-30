@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.conteiner {
+max-width: 1100px;
+margin: 0% auto;
+padding: 0% 30px;
+}
+
+.navbar {
+  height: 80px;
+}
+
+h1, h2, h3, h4 {
+  margin-bottom: 15px;
+}
+
+.navbar, .header {
+ background-color:#1f2937;
+ color: white;
+}
+
+.navbar .logo {
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.navbar .conteiner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  color: red;
+}
+
+.navbar ul {
+  display: flex;
+}
+
+.navbar ul li {
+  margin: 8px;
+}
+
+.header .conteiner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+.header h1 {
+  font-size: 3rem;
+  line-height: 1.2;
+}
+
+.header .button {
+  background:#3882f6;
+  color: white;
+  font-weight:bold;
+  cursor: pointer;
+  width: 120px;
+  height: 35px;
+  padding: 7px 3px;
+  border-radius: 8px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.boxes h1 {
+  font-size: 2rem;
+  font-weight: bolder;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.boxes .conteiner {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+.boxes img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: solid red;
+}
+
+.boxes h3 {
+ text-align: center;
+}
+
+.quotes {
+  background-color:#e5e7eb;
+}
+
+.quotes .conteiner {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quotes .quote {
+  padding: 100px;
+}
+
+.quote h4 {
+ text-align: right;
+}
+
+.quotes h1 {
+  font-weight:lighter;
+  font-size: 36px;
+  text-align: center;
+  font-style: italic;
+}
+
+.reminder .conteiner {
+  display: flex;
+  align-items: center;
+  height: 300px;
+}
+
+.reminder .text {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  gap: 30px;
+  background:#3882f6 ;
+  border-radius: 10px;
+  height: 100px;
+  width: 1000px;
+}
+
+.reminder a {
+color: white;
+font-weight: bolder;
+font-size: 30px;
+text-align: center;
+}
+
+.reminder p {
+  color: white;
+  font-weight: bold;
+}
+
+.reminder .button {
+  border: solid 2px white;
+  cursor: pointer;
+  padding: 7px 35px;
+  border-radius: 8px;
+}
+
+.footer {
+  background-color: #1f2937;
+  margin: 0%;
+  padding: 15px;
+}
+
+.footer p {
+  color: white;
+  text-align: center;
+}
